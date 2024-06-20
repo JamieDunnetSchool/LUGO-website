@@ -45,7 +45,11 @@ h1 {font-size: 60px;
   color: #000000;
 }
 
+#Introdution{
+      font-size: large;
+      font-family: 'Times New Roman', Times, serif;
 
+}
 .header {
 grid-area: header;
 color: aquamarine;
@@ -75,11 +79,19 @@ background-color: #0965AE;
 grid-area: nav;
 color: rgb(0, 0, 0);
 background-color: #0965AE;
-padding-bottom: 10px;
-padding-bottom: 10px;
+padding-bottom: 5px;
+padding-top: 5px;
+}
+
+#Mainimg{
+  width: 600px;
+
+{
+
 }
 
 
+}
 .container {
 display: grid;
 grid-template-columns: 18% 32% 32% 18%;
