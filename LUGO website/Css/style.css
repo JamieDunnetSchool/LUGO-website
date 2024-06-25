@@ -54,7 +54,8 @@ h1 {font-size: 60px;
 grid-area: header;
 color: aquamarine;
 background-color: #0965AE;
-background-image: url("../Images/paten.jpg");
+background-image: url("../banner.png");
+background-position: top;
 padding: 4px;
 
 }
@@ -67,7 +68,7 @@ background-color: #d7f2ffff
 grid-area: sidebar;
 color: rgb(0, 0, 0);
 background-color: #F1CC0C;
-margin-top: 100px;
+
 }
 .footer {
 grid-area: footer;
@@ -84,10 +85,11 @@ padding-top: 5px;
 }
 
 #Mainimg{
-  width: 600px;
+  width: 60%;
 }
 #Toyworld{
-  width: 300px;
+  
+  width: 90%;
 }
 
 
@@ -104,12 +106,12 @@ grid-template-areas:
 }
 #img2{
 
-  width: 300px;
+  width: 90%;
 }
 
 #img3{
 
-  width: 300px;
+  width: 90%;
 }
 .mser {
 text-align: left;
@@ -119,3 +121,4 @@ text-align: left;
 .instrutions {
 text-align: left;
 }
+
