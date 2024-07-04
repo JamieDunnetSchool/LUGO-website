@@ -46,10 +46,17 @@ h1 {font-size: 60px;
 }
 
 #Introdution{
-      font-size: large;
+      text-size: large;
 }  
 .Roles{
-  font-size: large;
+ 
+  font-size: 40px;
+
+}
+.Photos{
+  width: 80%;
+
+
 }
 .header {
 grid-area: header;
