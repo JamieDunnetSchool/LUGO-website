@@ -45,9 +45,6 @@ h1 {font-size: 60px;
   color: #000000;
 }
 
-#Introdution{
-      text-size: large;
-}  
 .Roles{
  
   font-size: 40px;
@@ -70,8 +67,10 @@ padding: 4px;
 .main {
 grid-area: main;
 color: rgb(0, 0, 0);  
-background-color: #d7f2ffff
+background-color: #d7f2ffff;
+padding-top: 10px;
 }
+
 .sidebar {
 grid-area: sidebar;
 color: rgb(0, 0, 0);
@@ -130,3 +129,15 @@ text-align: left;
 text-align: left;
 }
 
+.grid {
+  border: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.grid {
+
+  width: 100%;
+
+}
