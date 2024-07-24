@@ -55,6 +55,13 @@ h1 {font-size: 60px;
 
 
 }
+
+.contact_form{
+  border: solid 0.5px;
+  margin: 30px;
+}
+
+
 .header {
 grid-area: header;
 color: aquamarine;
@@ -141,3 +148,4 @@ text-align: left;
   width: 100%;
 
 }
+
