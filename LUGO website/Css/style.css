@@ -1,3 +1,42 @@
+/* This section is to make the main grid layout for all the pages */
+.container {
+  display: grid;
+  grid-template-columns: 18% 32% 32% 18%;
+  grid-template-rows: auto;
+  grid-template-areas: 
+    "header header header header"
+    "nav nav nav nav"
+    "sidebar main main sidebar2"
+    "footer footer footer footer";
+  }
+
+  /* this sction is the Style for the headers it conrollers the banner and logo*/
+  .header {
+    grid-area: header;
+    color: aquamarine;
+    background-color: #0965AE;
+    background-image: url("../banner.png");
+    background-position: top;
+    padding: 4px;
+    
+    }
+  
+  header{
+    background-color: #84a570;
+    height: 180px;
+  }
+  
+
+
+
+
+
+h1 {font-size: 60px;
+  color: #000000;
+}
+
+/*This section is for the navagation bar it puts all the buttons inlinea and makes it when you hover over it the buttons will change color */
+
 nav a:link, a:visited {
   background-color: white;
   color: black;
@@ -13,11 +52,15 @@ nav  a:hover, a:active {
   color: white;
 }
 
+.nav {
+  grid-area: nav;
+  color: rgb(0, 0, 0);
+  background-color: #0965AE;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  }
 
-header{
-  background-color: #84a570;
-  height: 180px;
-}
+/*This section is Main for all the pages.*/
 
 main {
   width: 80%;
@@ -34,6 +77,31 @@ body {
   text-align: center;
 }
 
+.main {
+  grid-area: main;
+  color: rgb(0, 0, 0);  
+  background-color: #d7f2ffff;
+  padding-top: 10px;
+  }
+    /*This sevtion is for the side bar of each page */
+  .sidebar {
+  grid-area: sidebar;
+  color: rgb(0, 0, 0);
+  background-color: #F1CC0C;
+  }
+  #Toyworld{
+  
+    width: 90%;
+  }
+  
+  
+  /*This sevtion is for the foot at the bottem of each page */
+  
+  .footer {
+  grid-area: footer;
+  color: rgb(0, 0, 0);
+  background-color: #0965AE;
+  }
 
 footer {
 color: #000000;
@@ -41,83 +109,49 @@ background-color: #84a570;
 padding: 30px;
 }
 
-h1 {font-size: 60px;
-  color: #000000;
-}
 
+
+/* this is the Form on the contact page and the roles that are a bove it*/
+.contact_form{
+  border: solid 0.5px;
+  margin: 30px;
+}
 .Roles{
  
   font-size: 40px;
 
 }
+
+
+/* this is the memberships on the member ship page*/
+.grid {
+  border: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  width: 100%;
+}
+
+.mser {
+  text-align: left;
+      
+  }
+  
+  .instrutions {
+  text-align: left;
+  }
+  
+/* This is all the main images througt the website*/
+#Mainimg{
+  width: 60%;
+}
+
 .Photos{
   width: 80%;
 
 
 }
 
-.contact_form{
-  border: solid 0.5px;
-  margin: 30px;
-}
-
-
-.header {
-grid-area: header;
-color: aquamarine;
-background-color: #0965AE;
-background-image: url("../banner.png");
-background-position: top;
-padding: 4px;
-
-}
-.main {
-grid-area: main;
-color: rgb(0, 0, 0);  
-background-color: #d7f2ffff;
-padding-top: 10px;
-}
-
-.sidebar {
-grid-area: sidebar;
-color: rgb(0, 0, 0);
-background-color: #F1CC0C;
-
-}
-.footer {
-grid-area: footer;
-color: rgb(0, 0, 0);
-background-color: #0965AE;
-}
-
-.nav {
-grid-area: nav;
-color: rgb(0, 0, 0);
-background-color: #0965AE;
-padding-bottom: 5px;
-padding-top: 5px;
-}
-
-#Mainimg{
-  width: 60%;
-}
-#Toyworld{
-  
-  width: 90%;
-}
-
-
-
-.container {
-display: grid;
-grid-template-columns: 18% 32% 32% 18%;
-grid-template-rows: auto;
-grid-template-areas: 
-  "header header header header"
-  "nav nav nav nav"
-  "sidebar main main sidebar2"
-  "footer footer footer footer";
-}
 #img2{
 
   width: 90%;
@@ -126,26 +160,5 @@ grid-template-areas:
 #img3{
 
   width: 90%;
-}
-.mser {
-text-align: left;
-    
-}
-
-.instrutions {
-text-align: left;
-}
-
-.grid {
-  border: 10px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px;
-}
-
-.grid {
-
-  width: 100%;
-
 }
 
